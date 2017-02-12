@@ -152,8 +152,35 @@ a {
   padding: 2.5% 5%;
 }
 
-ul {
+. ul {
   list-style-type: none;
+}
+
+.work-entry ol    {
+  list-style:outside circle;
+  color: #ccc;
+
+}
+
+
+#topContacts li    {
+  list-style:outside circle;
+  margin-left: 15px;
+
+}
+#skills li    {
+  margin-left: 15px;
+
+}
+
+.img-container {
+  display: -webkit-flex;
+  display: flex;
+  width: 400px;
+}
+
+.img-item {
+  margin: 10px;
 }
 
 .biopic {
@@ -163,9 +190,11 @@ ul {
   display: none;
 }
 
-img {
-  padding: 10px;
+.projectImage {
+  max-width:100%;
+  border:1px solid;
 }
+
 
 span {
   padding: 5px;
